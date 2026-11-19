@@ -1,25 +1,25 @@
 class ArcheeCli < Formula
   desc "Archee Studio command line: `archee`."
   homepage "https://archee.studio"
-  version "13.128.0"
+  version "16.46.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Archee-Studio/archee-cli/releases/download/v13.128.0/archee-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "767b6d6135b3d8de2c4d7e02a82460fef313b22316f2bafb6c565840ecb2e5c0"
+      url "https://github.com/Archee-Studio/archee-cli/releases/download/v16.46.0/archee-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "34f48dd0da1660a98bb5782b6a486ac1dd75a1ac97cae3cf34c36647b7112358"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Archee-Studio/archee-cli/releases/download/v13.128.0/archee-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "6d49f27fce09459036bc2ef287e3b5f40ffcf63a7dae2e23634aec33434f4c93"
+      url "https://github.com/Archee-Studio/archee-cli/releases/download/v16.46.0/archee-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "9aaaa9b8cbb773f8ff134f7033ac5d7d69719c110fc3ee3ebc40eafc618705ec"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Archee-Studio/archee-cli/releases/download/v13.128.0/archee-cli-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "d52b9d9ab29645544d3342707923218572709754c2740d2bbb1165ac68eb05b1"
+      url "https://github.com/Archee-Studio/archee-cli/releases/download/v16.46.0/archee-cli-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "3db6cbf2e51423b4c1f4bd59fb97597cceea5904f910e84b56ab3f96557f3b8d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Archee-Studio/archee-cli/releases/download/v13.128.0/archee-cli-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "b02c6d1940068caae833d42f693c7d73fc891ab3a55235b29f69f985c44375ee"
+      url "https://github.com/Archee-Studio/archee-cli/releases/download/v16.46.0/archee-cli-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "c9993eab70482d365124682ec21e6c6abb521ea02cfc991991106503ea8763d3"
     end
   end
   license "Apache-2.0"
